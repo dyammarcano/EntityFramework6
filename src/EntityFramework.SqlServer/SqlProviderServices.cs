@@ -131,6 +131,8 @@ namespace System.Data.Entity.SqlServer
             set { _truncateDecimalsToScale = value; }
         }
 
+        public static bool UseScopeIdentity { get; set; } = true;
+
         /// <summary>
         /// Registers a handler to process non-error messages coming from the database provider.
         /// </summary>
