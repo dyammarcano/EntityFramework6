@@ -169,7 +169,7 @@ namespace Microsoft.Data.Entity.Design.VersioningFacade.ReverseEngineerDb.Schema
 
                     AppendComparisonFragment(filterFragment, alias, propertyName, parameterName);
                     parameters.Add(
-                        parameterName,
+                        value,
                         new EntityParameter
                         {
                             ParameterName = parameterName,
